@@ -904,3 +904,12 @@ h3 {
 .device-scene::before, .device, .counter-line {
   display: none !important;
 }
+
+
+/* Show the full original hero photo without cropping. */
+.device-scene {
+  background: #fbf8ef url("https://github.com/user-attachments/assets/7f8d8454-bd1f-444d-86a9-b227b957050c") center / contain no-repeat !important;
+}
+.device-scene::before, .device, .counter-line {
+  display: none !important;
+}
